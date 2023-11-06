@@ -4,59 +4,6 @@
   <meta charset="UTF-8">
   <title>PI2 Comércio</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 36px;
-      margin: 0;
-    }
-
-    p {
-      font-size: 18px;
-      margin: 0;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    section {
-      margin-bottom: 20px;
-      padding: 20px;
-      border: 1px solid #ddd;
-      background-color: #f9f9f9;
-    }
-
-    h2 {
-      font-size: 24px;
-    }
-
-    p, ul, ol {
-      font-size: 16px;
-    }
-
-    pre {
-      background-color: #f4f4f4;
-      padding: 5px;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -97,9 +44,8 @@
         </li>
       </ol>
       <p class="mt-2">
-        Containers
-        Para iniciar os containers, abra a pasta do projeto no terminal e execute os seguintes comandos:
-        <pre>docker-compose up -d --build</pre>
+
+
       </p>
     </section>
 
@@ -166,6 +112,7 @@
           <li>Linux (baseado em Ubuntu): <a href="https://docs.docker.com/engine/install/ubuntu/">https://docs.docker.com/engine/install/ubuntu/</a></li>
         </ul>
         Para iniciar os containers, abra a pasta do projeto no terminal e execute os seguintes comandos:
+        
         <pre>docker-compose up -d --build</pre>
       </p>
     </section>
